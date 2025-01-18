@@ -20,11 +20,9 @@ html {
 body {
   background-color: var(--colors-background);
   color: var(--colors-body);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100svh;
   margin: 0;
+  position: relative;
 }
 
 h1,
@@ -71,10 +69,6 @@ button {
   border: none;
   border-radius: 6px;
   padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
 }
 
 button:hover {
@@ -87,6 +81,16 @@ button:hover {
   font-size: 0.875rem;
   font-weight: 700;
   transition: background 75ms ease-in-out;
+
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-self: start;
+  text-align: start;
+  gap: 8px;
+}
+
+.button-primary svg {
+  justify-self: end;
 }
 
 .button-primary:hover {
@@ -111,6 +115,11 @@ button:hover {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: var(--shadow);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .product-card__image-desktop {
@@ -131,10 +140,8 @@ button:hover {
   font-size: 2rem;
   line-height: 2rem;
   letter-spacing: -0.18px;
-
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
 .product-card__cart-btn {
