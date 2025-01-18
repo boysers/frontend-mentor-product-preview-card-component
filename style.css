@@ -81,12 +81,13 @@ button:hover {
   font-size: 0.875rem;
   font-weight: 700;
   transition: background 75ms ease-in-out;
+}
 
+.button-primary:has(svg) {
   display: grid;
   grid-template-columns: auto auto;
-  justify-self: start;
-  text-align: start;
   gap: 8px;
+  text-align: start;
 }
 
 .button-primary svg {
