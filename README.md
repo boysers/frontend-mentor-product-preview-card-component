@@ -27,9 +27,11 @@ Your users should be able to:
 
 ### Links
 
-- Live Site URL: [https://boysers.github.io/frontend-mentor-blog-preview-card/](https://boysers.github.io/frontend-mentor-blog-preview-card/)
+- Live Site URL: [https://boysers.github.io/frontend-mentor-product-preview-card-component](https://boysers.github.io/frontend-mentor-product-preview-card-component)
 
 ## My process
+
+without flexbox
 
 ### Built with
 
